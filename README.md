@@ -1,5 +1,5 @@
 # Leecode-practice
-This repository contains my solutions to various LeetCode problems. Each solution is organized by problem title and includes a brief description, my approach to solving the problem, and the code implementation.
+This repository contains my solutions to various LeetCode problems. Each solution is organized by problem title and includes a brief description, and the code implementation.
 
 ## Repository Structure
 - Title of the Problem: A brief description of the problem.
@@ -7,5 +7,5 @@ This repository contains my solutions to various LeetCode problems. Each solutio
 
 ## How to Navigate the Repository
 Each problem is stored in its own folder, named after the problem title. Inside each folder, you will find:
-1. README.md: Contains the problem description, approach, and solution.
+1. README.md: Contains the problem description.
 2. solution.py: Contains the code for the solution.
