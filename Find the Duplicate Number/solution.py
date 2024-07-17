@@ -1,8 +1,8 @@
 
-def findDuplicate(nums):
+def findDuplicate(nums) -> bool:
     """
     :type nums: List[int]
-    :rtype: int
+    :rtype: bool
     """
     temp_arr = []
     
