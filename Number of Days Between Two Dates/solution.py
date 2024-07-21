@@ -41,7 +41,7 @@ def days_counter_within_same_year(day1 , day2, month1, month2, year1, year2):
     
     days = days_to_end_month1 + days_to_start_month2
     
-    for i in range(month1+1, 12, 1):
+    for i in range(month1+1, 13, 1):
         days += month_mapper[str(i)]
     
     if year2 % 4 == 0:
@@ -50,7 +50,7 @@ def days_counter_within_same_year(day1 , day2, month1, month2, year1, year2):
     for i in range(month2-1, 0, -1):
         days += month_mapper[str(i)]
     
-    return day2
+    return days
 
 
 def daysBetweenDates(date1, date2):
@@ -76,7 +76,6 @@ def daysBetweenDates(date1, date2):
         year1 = dates[0]
         month1 = dates[1]
         day1 = dates[2]
-        
         year2 = dates[3]
         month2 = dates[4]
         day2 = dates[5]
@@ -101,4 +100,4 @@ def daysBetweenDates(date1, date2):
         
     
             
-print(daysBetweenDates("2019-06-30","2019-06-29"))
+print(daysBetweenDates("1971-06-29","2010-09-23"))
